@@ -5,6 +5,8 @@ import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
+import java.util.List;
+
 @Dao
 public interface WaterDao {
 
@@ -23,4 +25,10 @@ public interface WaterDao {
      */
     @Query("SELECT COALESCE(SUM(amount), 0) FROM water_record WHERE date >= :dayStart AND date <= :dayEnd")
     int getDailyTotal(long dayStart, long dayEnd);
+
+    /**
+     * 查询所有记录，按时间降序排列
+     */
+    @Query("SELECT * FROM water_record ORDER BY date DESC")
+    List<WaterRecord> getAllRecords();
 }
