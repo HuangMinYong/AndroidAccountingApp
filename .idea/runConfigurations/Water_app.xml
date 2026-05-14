@@ -1,0 +1,37 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Water app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <module name="Water.app.main" />
+    <option name="DEPLOY" value="true" />
+    <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+    <option name="DEPLOY_AS_INSTANT" value="false" />
+    <option name="ARTIFACT_NAME" value="" />
+    <option name="PM_INSTALL_OPTIONS" value="" />
+    <option name="ALL_USERS" value="false" />
+    <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+    <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+    <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+    <option name="MULTILINGUAL" value="" />
+    <option name="RESTORE_EXTERNAL_TRANSIENT" value="false" />
+    <option name="COPY_AND_ROLLBACK" value="false" />
+    <option name="RESTORE_PREVIOUS_SNAPSHOT_ON_FIRST_RUN" value="false" />
+    <option name="ACTIVITY_CLASS" value="com.example.water.MainActivity" />
+    <option name="MODE" value="default_activity" />
+    <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+    <option name="UseLastSelection" value="false" />
+    <option name="Auto" description="" />
+    <option name="Always" description="" />
+    <option name="SpecificDevice" description="" />
+    <option name="Emulator" description="" />
+    <option name="WearRunningType" value="Cold" />
+    <option name="AutomatedInstall" value="false" />
+    <option name="PB_WORKSPACE_DOMAIN" value="" />
+    <option name="PB_SITE_NAME" value="" />
+    <option name="TEXT_HTML" value="" />
+    <option name="LOCALE" value="" />
+    <option name="DEFAULT" value="true" />
+    <option name="GradleSyncBeforeRun" value="true" />
+    <method v="2">
+      <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>
